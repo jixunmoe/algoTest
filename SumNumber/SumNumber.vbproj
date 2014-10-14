@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DB1270EA-E1FC-4371-82A1-5C1A5A730BDA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>SumNumber.Module1</StartupObject>
+    <StartupObject>SumNumber.Main</StartupObject>
     <RootNamespace>SumNumber</RootNamespace>
     <AssemblyName>SumNumber</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -66,9 +66,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassAlgorithm.vb" />
-    <Compile Include="ClassTimer.vb" />
-    <Compile Include="Module1.vb" />
+    <Compile Include="Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
